@@ -35,7 +35,7 @@ public class UI {
 		System.out.print("\033[H\033[2J");
 		System.out.flush();
 	}
-
+	
 	public static ChessPosition readChessPosition(Scanner input) {
 		try {
 			String s = input.nextLine();
