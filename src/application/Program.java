@@ -12,12 +12,7 @@ public class Program {
 
 	public static void main(String[] args) {
 		Scanner input = new Scanner(System.in);
-
-//		Position pos = new Position(5, 8);
-//		System.out.println(pos);
-
-//		Board board = new Board(8, 8);
-
+		
 		ChessMatch chessMatch = new ChessMatch();
 
 		while (true) {
@@ -43,6 +38,6 @@ public class Program {
 				input.nextLine();
 			}
 		}
-
+		
 	}
 }
